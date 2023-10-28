@@ -10,4 +10,15 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-color: #b8b8ff;
+}
+
+.container{
+    background-color: #9381ff;
+    color: #f8f7ff;
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
 }
