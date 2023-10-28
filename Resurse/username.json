@@ -1,0 +1,10 @@
+{
+    "USER":{
+        "username:":"user",
+        "password":"test"
+    },
+    "PROFESOR":{
+        "username:":"profesor",
+        "password":"test"
+    }
+}
