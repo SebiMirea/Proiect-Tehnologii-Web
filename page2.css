@@ -4,3 +4,8 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+
+.containter{
+    width: 100%;
+    min-height: 100vh;
+}
