@@ -16,6 +16,8 @@ body{
 .container{
     background-color: #9381ff;
     color: #f8f7ff;
+    border-radius: 10px;
+    padding: 30px 40px;
 }
 
 .container h1{
