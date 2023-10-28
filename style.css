@@ -10,20 +10,12 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #ffb400;
-    background-size: cover;
-    background-position: center;
+    background-color: #b8b8ff;
 }
 
 .container{
-    width: 420px;
-    background:transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
+    background-color: #9381ff;
     color: #f8f7ff;
-    border-radius: 10px;
-    padding: 30px 40px;
-    backdrop-filter: blur(20px);
-    box-shadow: rgba(0, 0, 0, .2);
 }
 
 .container h1{
@@ -50,16 +42,4 @@ body{
     font-size: 16px;
     color: #333;
     font-weight: 600;
-}
-
-.inputBox input::placeholder{
-    color: #f8f7ff;
-}
-
-.inputBox i{
-    position: absolute;
-    right: 20px;
-    top:50px;
-    transform: translateY(-50%);
-    font-size: 20px;
 }
