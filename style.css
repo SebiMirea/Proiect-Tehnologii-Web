@@ -11,13 +11,19 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-color: #ffb400;
+    background-size: cover;
+    background-position: center;
 }
 
 .container{
-    background-color: #9381ff;
+    width: 420px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
     color: #f8f7ff;
     border-radius: 10px;
     padding: 30px 40px;
+    backdrop-filter: blur(20px);
+    box-shadow: rgba(0, 0, 0, .2);
 }
 
 .container h1{
