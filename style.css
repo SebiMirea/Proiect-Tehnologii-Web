@@ -32,6 +32,7 @@ body{
 }
 
 .container .inputBox{
+    position: relative;
     width: 100%;
     height: 50px;
     background-color: #b8b8ff;
@@ -49,4 +50,16 @@ body{
     font-size: 16px;
     color: #333;
     font-weight: 600;
+}
+
+.inputBox input::placeholder{
+    color: #f8f7ff;
+}
+
+.inputBox i{
+    position: absolute;
+    right: 20px;
+    top:50px;
+    transform: translateY(-50%);
+    font-size: 20px;
 }
