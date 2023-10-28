@@ -8,20 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <div class="container">
         <form action="">
             <h1>Login</h1>
             <div class="inputBox">
-                <input type="text" placeholder="Username" required>
+                <input type="text" id="usernameText" placeholder="Username" required>
                 <i class='bx bxs-user'></i>
             </div>
             <div class="inputBox">
-                <input type="text" placeholder="Password" required>
+                <input type="text" id="passwordText"  placeholder="Password" required>
                 <i class='bx bxs-lock-alt'></i>
             </div>
-            <button type="submit" class="btnLogin">Login</button>
+            <button type="submit" id= "btnLogin" class="btnLogin">Login</button>
+
+            <script src="app.js"></script>
+
         </form>
     </div>
 </body>
