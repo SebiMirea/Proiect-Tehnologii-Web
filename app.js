@@ -1,3 +1,3 @@
 document.getElementById('btnLogin').addEventListener('click', function() {
-    alert('Login reusit!');
+    window.location.href = 'user.html';
 });
